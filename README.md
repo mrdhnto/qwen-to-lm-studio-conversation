@@ -18,7 +18,7 @@ A simple PowerShell script to convert exported chat conversations from **Qwen** 
 ### 1. Create a New Conversation
 To create a new LM Studio chat file from your Qwen export:
 ```powershell
-.\import-qwen.ps1 -Type create -InputPath "path/to/qwen-chat.json" -OutputPath "path/to/lm-studio-chat.json"
+.\lm-studio-chat-importer.ps1 -Type create -InputPath "path/to/qwen-chat.json" -OutputPath "path/to/lm-studio-chat.json"
 ```
 
 ### 2. Merge Into Existing Conversation
